@@ -1,0 +1,12 @@
+meta:
+  description: "Physical antenna (RF chain) locations"
+  coordinate_system: "techtile_room_v1"
+  units: {position: "meters"}
+
+antennas:
+  # Fill with your actual imported positions; example below:
+  - chain_id: 0
+    tile: "A01"
+    channel_index: 0
+    position: {x_m: 7.55, y_m: 0.00, z_m: 0.45}
+    orientation: {vx: 0, vy: 1, vz: 0}
