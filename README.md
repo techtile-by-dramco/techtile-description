@@ -1,5 +1,17 @@
-# Techtile-Description
+# Techtile Description Repository
 
-This repo contains all relevant information about the Techtile R&D infrastructure.
-This entails, the antenna placements, patch , microphones etc.
+This repository contains the authoritative description of the Techtile R&D infrastructure:
+geometry, hardware, timing network, testbed metadata, and DSS-compliant documentation.
 
+## Contents
+
+- `dss/`  
+  DSS descriptions of the testbed, hardware, timing infrastructure, and data sources.
+- `geometry/`  
+  Physical positions of antennas, microphones, and Octoclocks.
+- `calibration/`  
+  Timing network hierarchy (L0–L3) with full Octoclock cabling and tile mapping.
+- `tools/`  
+  Helper scripts.
+
+The coordinate system is defined in `docs/coordinate_system.md` (floor-fixed origin, meters).
