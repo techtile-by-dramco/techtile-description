@@ -1,0 +1,6 @@
+TechtileMicrophone: &TechtileMicrophone
+  type: "microphone"
+  model: "Techtile MEMS microphone"
+  parameters:
+    bandwidth_hz: [20, 20000]
+    sensitivity_dbv_pa: -42
