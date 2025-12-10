@@ -1,0 +1,6 @@
+OctoclockTNR: &OctoclockTNR
+  type: "clock_distribution"
+  model: "NI OctoClock-G"
+  parameters:
+    inputs: ["10MHz", "PPS"]
+    num_outputs: 8
