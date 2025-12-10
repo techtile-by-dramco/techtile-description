@@ -1,0 +1,7 @@
+Techtile915MHzAntenna: &Techtile915MHzAntenna
+  type: "antenna"
+  model: "Techtile 915 MHz patch"
+  parameters:
+    center_frequency_hz: 915e6
+    polarization: "vertical"
+    gain_dbi: 6
