@@ -1,0 +1,35 @@
+Techtile: &Techtile
+  name: "Techtile"
+  description: "Distributed massive MIMO, RF, and acoustic research testbed."
+  level: "L3"
+
+  data_chains:
+
+    - label: "RF"
+      chain:
+        data_source: *B210
+        channel_chain:
+          hardware_components:
+            - *Techtile915MHzAntenna
+          data_source_channel: "0"
+          num_data_source_chains: 140
+          channel_locations:
+            file: "../../geometry/techtile_antenna_locations.yml"
+            loc_unit: "m"
+
+    - label: "Acoustic"
+      chain:
+        data_source: *DAQ
+        channel_chain:
+          hardware_components:
+            - *TechtileMicrophonePA
+            - *TechtileMicrophone
+          data_source_channel: "0:100"
+          num_data_source_chains: 100
+          channel_locations:
+            file: "../../geometry/techtile_microphone_locations.yml"
+            loc_unit: "m"
+
+  timing:
+    timing_network_file: "../../calibration/timing/techtile_octoclock_network.yml"
+    octoclock_locations: "../../geometry/techtile_octoclock_locations.yml"
