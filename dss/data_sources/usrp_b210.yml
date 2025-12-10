@@ -1,0 +1,8 @@
+B210: &B210
+  type: "sdr"
+  model: "NI USRP B210"
+  manufacturer: "Ettus / NI"
+  parameters:
+    num_channels: 2
+    max_bandwidth_hz: 56000000
+    ref_clock: "external 10MHz + PPS"
