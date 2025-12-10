@@ -1,0 +1,21 @@
+meta:
+  description: "Octoclock positions on floor plan"
+  coordinate_system: "techtile_room_v1"
+  units: {position: "meters"}
+
+octoclocks:
+  - id: "TNR0XXX"
+    layer: 0
+    position: {x_m: 1.0, y_m: 0.5, z_m: 2.2}
+
+  - id: "TNR01XX"
+    layer: 1
+    position: {x_m: 2.0, y_m: 1.0, z_m: 2.2}
+
+  - id: "TNR02XX"
+    layer: 1
+    position: {x_m: 4.0, y_m: 1.0, z_m: 2.2}
+
+  - id: "TNR03XX"
+    layer: 1
+    position: {x_m: 6.0, y_m: 1.0, z_m: 2.2}
