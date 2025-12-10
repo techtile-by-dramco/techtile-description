@@ -1,0 +1,6 @@
+TechtileTimingCable: &TechtileTimingCable
+  type: "cable"
+  model: "LMR-195 SMA"
+  parameters:
+    use: "10MHz/PPS"
+    nominal_length_m: 5
